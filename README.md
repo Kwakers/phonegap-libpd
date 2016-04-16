@@ -30,35 +30,41 @@ Now it should build.
 USAGE:
 ======
 
-On the event device ready:
-Initialize with
-window.plugins.libPd.init();
+On the event device ready, Initialize with :
 
-To add to the search path use:
-window.plugins.libPd.addPath('/www/pd/');
+- window.plugins.libPd.init();
+
+To add to the search path use :
+
+- window.plugins.libPd.addPath('/www/pd/');
+
 in this way all the abstractions in /www/pd will be loaded.
 If you want to have a more elaborate directory structure, use the addPath at will.
 
-Open a patch
-window.plugins.libPd.openPatch('pd/sample.pd');
+Open a patch :
 
-For example, now you can send many type of messages:
-window.plugins.libPd.sendBang('toPD');
-window.plugins.libPd.sendFloat(3, 'toPD');
-window.plugins.libPd.sendSymbol("symbol", "on");
-window.plugins.libPd.sendMessage("message", "symbol", ["on"]);
-window.plugins.libPd.sendList("list", ["on"]);
+- window.plugins.libPd.openPatch('pd/sample.pd');
 
-you can add a listener for a [r fromPD] object:
-window.plugins.libPd.addListener("fromPD","console.log");
+For example, now you can send many type of messages :
 
+- window.plugins.libPd.sendBang('toPD');
+- window.plugins.libPd.sendFloat(3, 'toPD');
+- window.plugins.libPd.sendSymbol("symbol", "on");
+- window.plugins.libPd.sendMessage("message", "symbol", ["on"]);
+- window.plugins.libPd.sendList("list", ["on"]);
 
-You can open/close patches at will:
-window.plugins.libPd.openPatch('pd/sample.pd');
-window.plugins.libPd.closePatch();
+you can add a listener for a [r fromPD] object :
 
-Just remember that init/deinit have to be called just once as they start/stop the audio
-window.plugins.libPd.deinit();
+- window.plugins.libPd.addListener("fromPD","console.log");
+
+You can open/close patches at will :
+
+- window.plugins.libPd.openPatch('pd/sample.pd');
+- window.plugins.libPd.closePatch();
+
+Just remember that init/deinit have to be called just once as they start/stop the audio :
+
+- window.plugins.libPd.deinit();
 
 TODO:
 =====
