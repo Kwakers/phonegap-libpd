@@ -82,3 +82,21 @@ LibPd includes many other features, including receiving Midi messages from PD.
 
 Objective C is a dark langage for me, so i try to do my best.
 If you want to help, you're welcome.
+
+Special Thanks:
+===============
+
+I want to thank Peter Brinkmann for his libpd library and his very useful wiki and book,
+Alessandro Saccoia to open my mind and begin a great work in linking phonegap and libpd,
+...and also the Stackoverflow platform to give me many answers on the understanding of Objective C.
+
+Ressources:
+===========
+
+- https://github.com/libpd/libpd/wiki/objc
+- https://github.com/libpd/libpd/wiki/libpd
+- http://libpd.cc/read-the-book/
+- http://phonegap.com/
+- https://puredata.info/
+- http://fr.flossmanuals.net/puredata/introduction/
+- https://en.flossmanuals.net/pure-data/
