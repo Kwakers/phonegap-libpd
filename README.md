@@ -62,6 +62,11 @@ you can add a listener from a [s fromPD] object :
 
 - window.plugins.libPd.addListener("fromPD","console.log");
 
+remove a listerner or all listeners :
+
+- window.plugins.libPd.removeListener("fromPD","console.log");
+- window.plugins.libPd.removeAllListeners();
+
 You can open/close patches at will :
 
 - window.plugins.libPd.openPatch('pd/sample.pd');
