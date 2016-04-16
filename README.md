@@ -14,7 +14,7 @@ Remove the plug-in :
 - cordova plugin remove "com.kwakers.phonegap.phonegap-libpd"
 	
 	
-This version of plugin is a fork of https://github.com/alesaccoia/phonegap-libpd, i add more methods to complete the libpd library.
+This version of plugin is a fork of https://github.com/alesaccoia/phonegap-libpd, i just add more methods.
 
 
 INSTALLATION
