@@ -5,9 +5,15 @@ Cordova-phonegap plug-in for libPd
 
 Dependency: libPd (git@gitorious.org:pdlib/libpd.git)
 
-Add the plug-in with 
-phonegap local plugin add https://github.com/kwakers/phonegap-libpd
+Add the plug-in :
 
+- cordova plugin add https://github.com/kwakers/phonegap-libpd
+
+Remove the plug-in :
+
+- cordova plugin remove "com.kwakers.phonegap.phonegap-libpd"
+	
+	
 This version of plugin is a fork of https://github.com/alesaccoia/phonegap-libpd
 I add more methods to complete the library.
 
