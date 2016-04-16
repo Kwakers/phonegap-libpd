@@ -45,15 +45,15 @@ Open a patch :
 
 - window.plugins.libPd.openPatch('pd/sample.pd');
 
-For example, now you can send many type of messages :
+For example, now you can send many type of messages to a [r toPD] object:
 
 - window.plugins.libPd.sendBang('toPD');
 - window.plugins.libPd.sendFloat(3, 'toPD');
-- window.plugins.libPd.sendSymbol("symbol", "on");
-- window.plugins.libPd.sendMessage("message", "symbol", ["on"]);
-- window.plugins.libPd.sendList("list", ["on"]);
+- window.plugins.libPd.sendSymbol("toPD", "on");
+- window.plugins.libPd.sendMessage("toPD", "symbol", ["on"]);
+- window.plugins.libPd.sendList("toPD", ["on"]);
 
-you can add a listener for a [r fromPD] object :
+you can add a listener from a [s fromPD] object :
 
 - window.plugins.libPd.addListener("fromPD","console.log");
 
