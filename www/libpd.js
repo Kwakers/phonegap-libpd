@@ -1,4 +1,3 @@
-cordova.define("com.kwakers.phonegap.phonegap-libpd.libPd", function(require, exports, module) {
 //
 //  A plug-in to use libPd with cordova/phonegap
 //
@@ -112,6 +111,4 @@ cordova.addConstructor(function()
 {
   if(!window.plugins){window.plugins = {};}
   window.plugins.libPd = new libPd();
-});
-
 });
